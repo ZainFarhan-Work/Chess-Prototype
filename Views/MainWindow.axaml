@@ -4,6 +4,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Chess_Prototype.Views.MainWindow"
+        xmlns:vm="clr-namespace:Chess_Prototype.ViewModels"
+        x:DataType="vm:ChessBoardViewModel"
         Title="Chess_Prototype">
-    Welcome to Avalonia!
+        
+        <Window.DataContext>
+                <vm:ChessBoardViewModel/>
+        </Window.DataContext>
+        
+        <Grid>
+                <ItemsControl ItemsSource="{Binding Squares}">
+                        <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                        <UniformGrid Columns="8"/>
+                                </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+
+                        <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                        <Border Width="60" Height="60" Background="{Binding IsLight, Converter={StaticResource SquareColorConverter}}">
+                                        </Border>        
+                                </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                </ItemsControl>
+        </Grid>
+        
+        
+    
 </Window>

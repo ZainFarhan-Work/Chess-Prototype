@@ -64,3 +64,8 @@ C:\Users\Zain Farhan\Desktop\Test-C#\Chess-Prototype\bin\Debug\net9.0\runtimes\w
 C:\Users\Zain Farhan\Desktop\Test-C#\Chess-Prototype\obj\Debug\net9.0\Chess-Pr.CA18ED42.Up2Date
 C:\Users\Zain Farhan\Desktop\Test-C#\Chess-Prototype\obj\Debug\net9.0\Chess-Prototype.genruntimeconfig.cache
 C:\Users\Zain Farhan\Desktop\Test-C#\Chess-Prototype\obj\Debug\net9.0\ref\Chess-Prototype.dll
+C:\Users\Zain Farhan\Desktop\Test-C#\Chess-Prototype\obj\Debug\net9.0\Chess-Prototype.sourcelink.json
+C:\Users\Zain Farhan\Desktop\Test-C#\Chess-Prototype\bin\Debug\net9.0\DynamicData.dll
+C:\Users\Zain Farhan\Desktop\Test-C#\Chess-Prototype\bin\Debug\net9.0\ReactiveUI.dll
+C:\Users\Zain Farhan\Desktop\Test-C#\Chess-Prototype\bin\Debug\net9.0\Splat.dll
+C:\Users\Zain Farhan\Desktop\Test-C#\Chess-Prototype\bin\Debug\net9.0\System.Reactive.dll
